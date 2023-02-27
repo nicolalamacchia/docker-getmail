@@ -1,7 +1,7 @@
-FROM alpine:3.10
-LABEL maintainer="Flyffies"
+FROM alpine:latest
+LABEL maintainer="Nicola Lamacchia"
 
-ENV maintainer="Flyffies"
+ENV maintainer="Nicola Lamacchia"
 ENV SLEEP_TIME="300"
 # In Seconds
 ENV TZ="Etc/UTC"
